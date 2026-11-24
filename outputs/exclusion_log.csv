@@ -1,0 +1,20 @@
+Ticker,Stage,Rule,Detail,Action
+BRK-B,1.1 Acquisition,ticker_format,BRK.B -> BRK-B,INFO
+BF-B,1.1 Acquisition,ticker_format,BF.B -> BF-B,INFO
+APP,1.2 Validation,unequal_history,Missing 70 AdjClose / 70 Close / 70 Volume sessions (first valid 2021-04-15),EXCLUDE
+COIN,1.2 Validation,unequal_history,Missing 69 AdjClose / 69 Close / 69 Volume sessions (first valid 2021-04-14),EXCLUDE
+CEG,1.2 Validation,unequal_history,Missing 263 AdjClose / 263 Close / 263 Volume sessions (first valid 2022-01-19),EXCLUDE
+EXE,1.2 Validation,unequal_history,Missing 26 AdjClose / 26 Close / 26 Volume sessions (first valid 2021-02-10),EXCLUDE
+FDXF,1.2 Validation,no_data,No rows returned in 2021-01-01 to 2024-12-31 (post-period listing/rebrand),EXCLUDE
+FERG,1.2 Validation,volume_error,27 session(s) with zero or negative volume,EXCLUDE
+GEHC,1.2 Validation,unequal_history,Missing 492 AdjClose / 492 Close / 492 Volume sessions (first valid 2022-12-15),EXCLUDE
+GEV,1.2 Validation,unequal_history,Missing 812 AdjClose / 812 Close / 812 Volume sessions (first valid 2024-03-27),EXCLUDE
+HONA,1.2 Validation,no_data,No rows returned in 2021-01-01 to 2024-12-31 (post-period listing/rebrand),EXCLUDE
+Q,1.2 Validation,no_data,No rows returned in 2021-01-01 to 2024-12-31 (post-period listing/rebrand),EXCLUDE
+RDDT,1.2 Validation,unequal_history,Missing 808 AdjClose / 808 Close / 808 Volume sessions (first valid 2024-03-21),EXCLUDE
+HOOD,1.2 Validation,unequal_history,Missing 143 AdjClose / 143 Close / 143 Volume sessions (first valid 2021-07-29),EXCLUDE
+SNDK,1.2 Validation,no_data,No rows returned in 2021-01-01 to 2024-12-31 (post-period listing/rebrand),EXCLUDE
+SW,1.2 Validation,volume_error,424 session(s) with zero or negative volume,EXCLUDE
+SOLV,1.2 Validation,unequal_history,Missing 811 AdjClose / 811 Close / 811 Volume sessions (first valid 2024-03-26),EXCLUDE
+VLTO,1.2 Validation,unequal_history,Missing 692 AdjClose / 692 Close / 692 Volume sessions (first valid 2023-10-04),EXCLUDE
+VYLR,1.2 Validation,no_data,No rows returned in 2021-01-01 to 2024-12-31 (post-period listing/rebrand),EXCLUDE
