@@ -4,15 +4,14 @@ Student: Manthi Gunaratne (w2083129)
 
 ## Contents
 
-- `notebook/6BUIS017W_CW1_w2083129_Gunaratne.ipynb`: the unified analysis notebook (executed, outputs saved)
-- `notebook/make_unified_notebook.py`: script that generates the notebook
-- `data/`: data snapshot used for the analysis (retrieved 2026-11-20)
+- `01_chunk1_prices/`: data snapshot used for the analysis (retrieved 2026-11-20)
   - `prices_raw_2021-01-01_to_2024-12-31.csv`: daily prices and volume for the 503 S&P 500 tickers and ^GSPC
   - `sp500_constituents.csv`: ticker list from Wikipedia
   - `splits_events.csv`: split events found in the snapshot
   - `exclusion_log.csv`: shares excluded and why
   - `retrieval_date.txt`
-- `outputs/`: results used in the report (feature table, cluster assignments, profiles, k diagnostics, figures)
+- `05_unified_notebook/6BUIS017W_CW1_w2083129_Gunaratne.ipynb`: the analysis notebook (executed, outputs saved)
+- `05_unified_notebook/outputs/`: results used in the report (feature table, cluster assignments, profiles, k diagnostics, figures)
 
 ## Key settings
 
@@ -25,5 +24,5 @@ Student: Manthi Gunaratne (w2083129)
 
 ## Reproducing
 
-1. Install Python 3.13 with pandas, numpy, scikit-learn, scipy, matplotlib and yfinance (versions in `outputs/package_versions.txt`).
-2. Open the notebook and run all cells. It reads the local snapshot in `data/` when present, so results match the report without re-downloading.
+1. Install the packages listed in `05_unified_notebook/outputs/package_versions.txt`.
+2. Open `05_unified_notebook/6BUIS017W_CW1_w2083129_Gunaratne.ipynb` and run all cells from that folder. The notebook reads the snapshot from `../01_chunk1_prices/`, so results match the report without re-downloading from Yahoo Finance.
